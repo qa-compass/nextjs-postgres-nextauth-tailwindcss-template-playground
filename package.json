@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.9.4",
+    "@qa-compass/code-jump-webpack-react": "^0.0.16",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-dropdown-menu": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.0",

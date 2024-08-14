@@ -30,7 +30,10 @@ export default function RootLayout({
         }
       `}
       </Script>
-      <body className="flex min-h-screen w-full flex-col">{children}</body>
+      <body className="flex min-h-screen w-full flex-col">
+        <template data-qa-compass-template=""></template>
+        {children}
+      </body>
       <Analytics />
     </html>
   );
