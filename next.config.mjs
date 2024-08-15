@@ -14,7 +14,7 @@ const nextConfig = {
           loader: '@qa-compass/code-jump-webpack-react',
           options: {
             service: "github",
-            repoUrl: 'https://github.com/qa-compass/nextjs-postgres-nextauth-tailwindcss-template-playground',
+            repoUrl: 'https://github.com/qa-compass/playground',
             branch: process.env.VERCEL_GIT_COMMIT_REF || execSync("git rev-parse --abbrev-ref HEAD").toString().trimEnd(),
             commit: execSync("git rev-parse HEAD").toString().trimEnd(),
           }
